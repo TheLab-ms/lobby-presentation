@@ -9,3 +9,9 @@ head.ready("lodash.min.js", function () {
   // LoDash can be used from here
 });
 head.js("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js");
+
+// Refresh every 30 minutes to keep videos in sync
+// Will also pull in new content!
+setInterval(function() {
+  window.location.reload();
+}, 30*60000); 
