@@ -1,5 +1,7 @@
 ## The TAP LED Array
 
+![](images/tap.jpg)
+
 * A programmable, expandable, 8x8 LED matrix display.
 * 2” x 2":
 * Low Power
